@@ -67,9 +67,61 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\000038}}
 header {
   height: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\0000310}}
+header .logo {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 178px;
+  height: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\0000318}}
+header .main-nav {
+  float: right;
+  font-size: 19px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\0000321}}
+header .main-nav li {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\0000323}}
+header .main-nav li a {
+  color: #565656;
+  text-decoration: none;
+  float: left;
+  height: 92px;
+  line-height: 100px;
+  margin: 0 10px;
+  border: solid #fff;
+  border-width: 4px 0;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\0000333}}
+header .main-nav li a:before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 19px;
+  background: #565656;
+  position: absolute;
+  top: 41px;
+  left: -10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\0000343}}
+header .main-nav li a:hover {
+  border-bottom-color: #b0f4f0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\0000347}}
+header .main-nav li.current a {
+  border-bottom-color: #1bbdb3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\0000351}}
+header .main-nav li:first-child a:before {
+  display: none;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/screen\.scss}line{font-family:\0000316}}

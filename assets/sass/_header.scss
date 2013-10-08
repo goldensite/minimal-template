@@ -1,8 +1,57 @@
 
+// Main menu setings
+$main-nav-link-color:                 #565656;
+$main-nav-font-size:                  19px;
+$main-nav-active-indicator-color:     #1BBDB3;
+
 
 header {
   height: 100px;
   .logo {
-    
+    $logo-path: '../../images/minimal-logo.png' !default;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: image-width($logo-path);
+    height: image-height($logo-path);
+  }
+  .main-nav {
+    float: right;
+    font-size: $main-nav-font-size;
+    li {
+      float: left;
+      a {
+        color: $main-nav-link-color;
+        text-decoration: none;
+        float: left;
+        height: 92px;
+        line-height: 100px;
+        margin: 0 10px;
+        border: solid #fff;
+        border-width: 4px 0;
+        position: relative;
+        &:before {
+          content: "";
+          display: block;
+          width: 1px;
+          height: $main-nav-font-size;
+          background: $main-nav-link-color;
+          position: absolute;
+          top: 41px;
+          left: -10px;
+        }
+        &:hover {
+          border-bottom-color: lighten($main-nav-active-indicator-color, 40%);
+        }        
+      }
+      &.current a {
+        border-bottom-color: $main-nav-active-indicator-color;
+      }
+      &:first-child{
+        a:before {
+          display: none;
+        }
+      }
+    }
   }
 }

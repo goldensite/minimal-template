@@ -67,7 +67,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/screen\.scss}line{font-family:\000038}}
-body {
-  background: #eee;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\000033}}
+header {
+  height: 100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/screen\.scss}line{font-family:\0000316}}
+body, html {
+  background: #fff;
 }

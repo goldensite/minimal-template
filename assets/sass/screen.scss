@@ -5,6 +5,14 @@
 
 @import "compass/reset";
 
-body {
-  background: #eee;
+
+
+// Partials css files
+@import "header";
+
+
+
+
+body,html {
+  background: #fff;
 }

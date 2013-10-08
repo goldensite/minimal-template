@@ -4,6 +4,7 @@
     <title>Bootstrap 101 Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
+    <link href="assets/css/bootstrap/bootstrap-custom.css" rel="stylesheet" media="screen">
     <link href="assets/css/screen.css" rel="stylesheet" media="screen">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -13,7 +14,106 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header class="container">
+      <div class="row">
+        <img src="images/minimal-logo.png" class="logo">
+
+        <nav>
+          <ul>
+            <li class="current"><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <div class="main-teaser">
+      <ul class="nav nav-tabs">
+        <li><a href="#desktop" data-toggle="tab">Desktop</a></li>
+        <li><a href="#tablet" data-toggle="tab">Tablet</a></li>
+        <li class="active"><a href="#phone" data-toggle="tab">Phone</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane fade active" id="desktop">...1</div>
+        <div class="tab-pane fade" id="tablet">...2</div>
+        <div class="tab-pane fade" id="phone">...3</div>
+      </div> <!-- .tab-content -->
+
+    </div> <!-- .main-teaser -->
+
+    <article class="info-articel">
+      <h1>About minimal</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+    </article>
+
+    <div class="showcase">
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#tab-1" data-toggle="tab">Desktop</a></li>
+        <li><a href="#tab-2" data-toggle="tab">Tablet</a></li>
+        <li><a href="#tab-3" data-toggle="tab">Phone</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="tab-1">
+
+          <div id="showcase-1" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#showcase-1" data-slide-to="0" class="active"></li>
+              <li data-target="#showcase-1" data-slide-to="1"></li>
+              <li data-target="#showcase-1" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                1<img src="..." alt="...">
+                <div class="carousel-caption">
+                  ...
+                </div>
+              </div>
+              <div class="item">
+                2<img src="..." alt="...">
+                <div class="carousel-caption">
+                  ... 2
+                </div>
+              </div>
+              <div class="item">
+                3<img src="..." alt="...">
+                <div class="carousel-caption">
+                  ... 3
+                </div>
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#showcase-1" data-slide="prev">
+              <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#showcase-1" data-slide="next">
+              <span class="icon-next"></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="tab-pane" id="tab-2">...2</div>
+        <div class="tab-pane" id="tab-3">...3</div>
+
+      </div> <!-- .tab-content -->
+
+    </div> <!-- .showcase -->
+
+    <article class="project-info">
+      <p><span class="highlight">60%</span>
+      Of project
+      Completed</p>
+    </article>
+
+    <footer>
+      <address>Copyright &copy; 2012 Css Author </address>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="//code.jquery.com/jquery.js"></script>

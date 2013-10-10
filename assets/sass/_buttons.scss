@@ -1,0 +1,32 @@
+// Buttons styles
+
+@import "compass";
+
+.btn {
+  @include border-radius(0);
+  font-size: 21px;
+  background: #54D0C1;
+  color: white;
+  border: 0;  
+  position: relative;  
+  padding: 0;
+  span {
+    display: block;
+    height: 45px;
+    border-bottom: 4px solid #3CB8A9;
+    line-height: 45px;
+    padding: 0 20px;
+    margin-left: 56px;
+  }
+  &:before {
+    content: "";
+    height: 45px;
+    width: 56px;
+    display: block;
+    background: #299A8C url(../img/ico-cart.png) center center no-repeat;
+    border-bottom: 4px solid #257F74;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

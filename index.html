@@ -28,34 +28,57 @@
       </div>
     </header>
     
-    <div class="main-teaser">
+    <section class="main-teaser">
       <ul class="nav nav-tabs">
-        <li><a href="#desktop" data-toggle="tab">Desktop</a></li>
-        <li><a href="#tablet" data-toggle="tab">Tablet</a></li>
-        <li class="active"><a href="#phone" data-toggle="tab">Phone</a></li>
+        <li class="nav-tabs-desktop"><a href="#desktop" data-toggle="tab"><span class="icons-devices-desktop"></span>Desktop</a></li>
+        <li class="nav-tabs-tablet"><a href="#tablet" data-toggle="tab"><span class="icons-devices-tablet"></span>Tablet</a></li>
+        <li class="nav-tabs-phone active"><a href="#phone" data-toggle="tab"><span class="icons-devices-phone"></span>Phone</a></li>
       </ul>
 
-      <div class="tab-content">
-        <div class="tab-pane fade active" id="desktop">...1</div>
-        <div class="tab-pane fade" id="tablet">...2</div>
-        <div class="tab-pane fade" id="phone">...3</div>
+      <div class="tab-content container">
+        <div class="tab-pane fade" id="desktop">
+          <figure>
+            <img src="images/img-phone.png" alt="Phone">
+          </figure>
+
+        </div> <!-- .tab-pane -->
+
+        <div class="tab-pane fade" id="tablet">...2
+        </div> <!-- .tab-pane -->
+
+        <div class="tab-pane fade active in" id="phone">
+          <figure class="slide-picture">
+            <span class="circles"></span>
+            <img src="images/img-phone.png" alt="Phone">
+          </figure>
+          <aside class="slide-body">
+            <div class="app-of-the-year">App of<br> ther year</div>
+            <h1 class="slide-title">My apps showecase</h1>
+            <p class="slide-content">Lorem Ipsum is simply dummy text .....</p>
+
+            <a class="btn btn-buy" type="button"><span>Buy now</span></a>
+          </aside>
+          
+
+        </div> <!-- .tab-pane -->
+
       </div> <!-- .tab-content -->
 
-    </div> <!-- .main-teaser -->
+    </section> <!-- .main-teaser -->
 
     <article class="info-articel">
       <h1>About minimal</h1>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
     </article>
 
-    <div class="showcase">
+    <section class="showcase">
       <ul class="nav nav-tabs">
         <li class="active"><a href="#tab-1" data-toggle="tab">Desktop</a></li>
         <li><a href="#tab-2" data-toggle="tab">Tablet</a></li>
         <li><a href="#tab-3" data-toggle="tab">Phone</a></li>
       </ul>
 
-      <div class="tab-content">
+      <div class="tab-content container">
         <div class="tab-pane active" id="tab-1">
 
           <div id="showcase-1" class="carousel slide">
@@ -103,7 +126,7 @@
 
       </div> <!-- .tab-content -->
 
-    </div> <!-- .showcase -->
+    </section> <!-- .showcase -->
 
     <article class="project-info">
       <p><span class="highlight">60%</span>

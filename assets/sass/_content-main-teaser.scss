@@ -1,0 +1,150 @@
+@import "compass";
+
+$experimental-support-for-svg: true;
+
+@import "icons-devices/*.png";
+@include all-icons-devices-sprites;
+
+.main-teaser {
+  background: #00717A;
+  height: 540px;
+  position: relative;
+  @include background-image(radial-gradient(65% 90%, circle cover, #19CDB5 300px, #00717A 730px));
+  // Navigation
+  .nav-tabs{
+    float: right;
+    position: absolute;
+    right: 0;
+    a {
+      width: 120px;
+      height: 120px;
+      overflow: hidden;
+      text-indent: 100%;
+      padding: 0;
+      span {
+        display: block;
+        position: absolute;
+        margin-left: 28px;
+        margin-top: 25px;
+        width: 65px;
+        height: 67px;
+        opacity: 0.57;
+      }
+      &:hover {
+        span {
+          opacity: 0.9;
+        }
+      }
+    }
+    li {
+      $bg-fill-color: #00767C;
+      background: rgba($bg-fill-color, 0.35);
+      position: relative;
+      &:after {
+        position: absolute;
+        content: "";
+        border-style: solid;
+        border-width: 13px 9px 0;
+        border-color: rgba($bg-fill-color, 0.35) transparent transparent;
+        bottom: -13px;
+        left: 50%;
+        margin-left: -9px;
+        display: none;
+      }
+      &.active:after{
+        display: block;
+      }
+      &:nth-child(2),
+      &.nav-tabs-tablet /* for IE */ {
+        background: rgba($bg-fill-color, 0.65);
+        &:after{
+          border-top-color: rgba($bg-fill-color, 0.65);
+        }
+      }
+      &:nth-child(3),
+      &.nav-tabs-phone /* for IE */ {
+        background: rgba($bg-fill-color, 1);
+        &:after{
+          border-top-color: rgba($bg-fill-color, 1);
+        }
+      }
+    }
+  }
+}
+
+
+// Slides
+.tab-pane {
+  height: 540px;
+  color: white;
+  .slide-picture {
+    position: relative;
+    float: left;
+    width: 450px;
+    margin-top: 50px;
+    img {
+      position: relative;
+      z-index: 2;
+      display: block;
+      margin-left: 95px;
+      margin-top: 10px;
+    }
+    .circles {
+      $bg-color: #18B6A9;
+      width: 450px;
+      height: 450px;
+      @include border-radius(450px);
+      background: rgba($bg-color,0.2);
+      position: absolute;
+      z-index: 1;
+      &:before,
+      &:after {
+        content: "";
+        width: 330px;
+        height: 330px;
+        @include border-radius(330px);
+        display: block;
+        background: rgba($bg-color,0.2);
+        position: absolute;
+        left: 30px;
+        top: 30px;
+      }
+      &:after {
+        left: 60px;
+        top: 60px;
+        background: $bg-color;
+      }
+      &:before {
+        padding: 30px;
+      }
+    }
+  }
+  .slide-body {
+    float: left;
+  }
+  .app-of-the-year {
+    font-size: 21px;
+    overflow: hidden;
+    margin-top: 180px;
+    &:before {
+      content: "";
+      float: left;
+      background: url(../img/ico-globe.png);
+      width: 55px;
+      height: 55px;
+      margin-right: 10px;
+      opacity: .65;
+    }
+  }
+  .slide-title {
+    font-size: 39px;
+    margin-top: 50px;
+    text-transform: uppercase;
+  }
+  .slide-content {
+    font-size: 17px;
+  }
+  .btn-buy {
+    margin-top: 40px;
+  }
+}

@@ -325,10 +325,12 @@ header .main-nav li:first-child a:before {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003124}}
 .tab-pane .app-of-the-year {
   font-size: 21px;
+  line-height: 28px;
+  text-transform: uppercase;
   overflow: hidden;
   margin-top: 180px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003130}}
 .tab-pane .app-of-the-year:before {
   content: "";
   float: left;
@@ -338,18 +340,20 @@ header .main-nav li:first-child a:before {
   margin-right: 10px;
   opacity: .65;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003140}}
 .tab-pane .slide-title {
   font-size: 39px;
-  margin-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 5px;
   color: inherit;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003147}}
 .tab-pane .slide-content {
   font-size: 17px;
+  margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003151}}
 .tab-pane .btn-buy {
   margin-top: 40px;
 }

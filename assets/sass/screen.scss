@@ -11,7 +11,7 @@ $experimental-support-for-svg: true;
 @import "buttons";
 @import "header";
 @import "content-main-teaser";
-
+@import "footer";
 
 
 // Common styles
@@ -43,5 +43,37 @@ p {
   .pic-app-of-the-year {
     margin-bottom: 50px;
     padding-left: 20px;
+  }
+}
+
+
+
+
+// section Project info
+
+.project-info {
+  background: #eee;
+  @include background-image(linear-gradient(left, #FFFFFF, #FFFFFF 66.66%, #4CD4B0 66.66%));
+  article {
+    background: #fff;
+    height: 510px;
+    font-size: 75px;
+    color: #4CD4B0;
+    text-transform: uppercase;
+    p {
+      margin-bottom: 0;
+    }
+    .highlight {
+      font-size: 200px;
+      font-weight: bold;
+    }
+  }
+  aside {
+    height: 510px;
+    background: #4CD4B0 url(../img/arrows.png) right center no-repeat;
+    .arrows {
+      display: block;
+      height: 510px;
+    }
   }
 }

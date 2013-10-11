@@ -5,7 +5,7 @@
 
 @import "compass/reset";
 
-
+$experimental-support-for-svg: true;
 
 // Partials css files
 @import "buttons";
@@ -14,8 +14,34 @@
 
 
 
-
+// Common styles
 
 body,html {
   background: #fff;
+  color: #9f9f9f;
+}
+
+h1 {
+  font-size: 41px;
+  color: #636363;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 2em;
+}
+
+
+
+// CONTENT ===========================
+
+// section About
+.info-articel {
+  text-align: center;
+  .pic-app-of-the-year {
+    margin-bottom: 50px;
+    padding-left: 20px;
+  }
 }

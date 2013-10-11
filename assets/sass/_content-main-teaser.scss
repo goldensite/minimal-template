@@ -1,6 +1,5 @@
 @import "compass";
 
-$experimental-support-for-svg: true;
 
 @import "icons-devices/*.png";
 @include all-icons-devices-sprites;
@@ -9,6 +8,7 @@ $experimental-support-for-svg: true;
   background: #00717A;
   height: 540px;
   position: relative;
+  color: white;
   @include background-image(radial-gradient(65% 90%, circle cover, #19CDB5 300px, #00717A 730px));
   // Navigation
   .nav-tabs{
@@ -76,7 +76,6 @@ $experimental-support-for-svg: true;
 // Slides
 .tab-pane {
   height: 540px;
-  color: white;
   .slide-picture {
     position: relative;
     float: left;
@@ -139,6 +138,7 @@ $experimental-support-for-svg: true;
   .slide-title {
     font-size: 39px;
     margin-top: 50px;
+    color: inherit;
     text-transform: uppercase;
   }
   .slide-content {

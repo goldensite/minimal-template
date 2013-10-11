@@ -180,11 +180,12 @@ header .main-nav li:first-child a:before {
   background-position: 0 -134px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\000037}}
 .main-teaser {
   background: #00717A;
   height: 540px;
   position: relative;
+  color: white;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjY1JSIgY3k9IjkwJSIgcj0iNzMwIj48c3RvcCBvZmZzZXQ9IjQxLjA5NTg5JSIgc3RvcC1jb2xvcj0iIzE5Y2RiNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwNzE3YSIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
   background-image: -webkit-gradient(radial, 65% 90%, 0, 65% 90%, 730, color-stop(41.09589%, #19cdb5), color-stop(100%, #00717a));
@@ -262,16 +263,15 @@ header .main-nav li:first-child a:before {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\0000377}}
 .tab-pane {
   height: 540px;
-  color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\0000379}}
 .tab-pane .slide-picture {
   position: relative;
   float: left;
   width: 450px;
   margin-top: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\0000384}}
 .tab-pane .slide-picture img {
   position: relative;
   z-index: 2;
@@ -279,7 +279,7 @@ header .main-nav li:first-child a:before {
   margin-left: 95px;
   margin-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\0000391}}
 .tab-pane .slide-picture .circles {
   width: 450px;
   height: 450px;
@@ -292,7 +292,7 @@ header .main-nav li:first-child a:before {
   position: absolute;
   z-index: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003100}}
 .tab-pane .slide-picture .circles:before, .tab-pane .slide-picture .circles:after {
   content: "";
   width: 330px;
@@ -308,27 +308,27 @@ header .main-nav li:first-child a:before {
   left: 30px;
   top: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003111}}
 .tab-pane .slide-picture .circles:after {
   left: 60px;
   top: 60px;
   background: #18b6a9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003116}}
 .tab-pane .slide-picture .circles:before {
   padding: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003121}}
 .tab-pane .slide-body {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003124}}
 .tab-pane .app-of-the-year {
   font-size: 21px;
   overflow: hidden;
   margin-top: 180px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003128}}
 .tab-pane .app-of-the-year:before {
   content: "";
   float: left;
@@ -338,10 +338,11 @@ header .main-nav li:first-child a:before {
   margin-right: 10px;
   opacity: .65;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003138}}
 .tab-pane .slide-title {
   font-size: 39px;
   margin-top: 50px;
+  color: inherit;
   text-transform: uppercase;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_content-main-teaser\.scss}line{font-family:\00003144}}
@@ -356,4 +357,29 @@ header .main-nav li:first-child a:before {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/screen\.scss}line{font-family:\0000319}}
 body, html {
   background: #fff;
+  color: #9f9f9f;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/screen\.scss}line{font-family:\0000324}}
+h1 {
+  font-size: 41px;
+  color: #636363;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/screen\.scss}line{font-family:\0000331}}
+p {
+  line-height: 1.5;
+  margin-bottom: 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/screen\.scss}line{font-family:\0000341}}
+.info-articel {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/screen\.scss}line{font-family:\0000343}}
+.info-articel .pic-app-of-the-year {
+  margin-bottom: 50px;
+  padding-left: 20px;
 }

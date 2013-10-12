@@ -1,0 +1,16 @@
+
+.showcase {
+  @include background-image(radial-gradient(65% 90%, circle cover, #10A499 300px, #00646A 730px));
+  .nav {
+    display: table;
+    width: 100%;
+    li {
+      display: table-cell;
+      float: none;
+    }
+    a {
+      display: block;
+      height: 180px;
+    }
+  }
+}

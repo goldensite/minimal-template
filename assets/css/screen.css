@@ -148,8 +148,12 @@ header .main-nav li a {
   border: solid #fff;
   border-width: 4px 0;
   position: relative;
+  -webkit-transition: border-color 1s;
+  -moz-transition: border-color 1s;
+  -o-transition: border-color 1s;
+  transition: border-color 1s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\0000334}}
 header .main-nav li a:before {
   content: "";
   display: block;
@@ -160,15 +164,15 @@ header .main-nav li a:before {
   top: 41px;
   left: -10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\0000344}}
 header .main-nav li a:hover {
   border-bottom-color: #b0f4f0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\0000348}}
 header .main-nav li.current a {
   border-bottom-color: #1bbdb3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_header\.scss}line{font-family:\0000352}}
 header .main-nav li:first-child a:before {
   display: none;
 }
@@ -517,16 +521,12 @@ header .main-nav li:first-child a:before {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_showcase\.scss}line{font-family:\0000387}}
 .showcase .carousel-control {
   opacity: 0;
-  -webkit-transition-property: opacity;
-  -moz-transition-property: opacity;
-  -o-transition-property: opacity;
-  transition-property: opacity;
-  -webkit-transition-duration: 1s;
-  -moz-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  transition-duration: 1s;
+  -webkit-transition: opacity 2s;
+  -moz-transition: opacity 2s;
+  -o-transition: opacity 2s;
+  transition: opacity 2s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_showcase\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/assets\/sass\/_showcase\.scss}line{font-family:\0000390}}
 .showcase .carousel-control:hover {
   opacity: .9;
 }

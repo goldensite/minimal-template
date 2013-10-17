@@ -30,6 +30,7 @@ header {
         border: solid #fff;
         border-width: 4px 0;
         position: relative;
+        @include transition(border-color 1s);
         &:before {
           content: "";
           display: block;

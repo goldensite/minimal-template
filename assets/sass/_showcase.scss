@@ -86,8 +86,7 @@
   }
   .carousel-control {
     opacity: 0;
-    @include transition-property(opacity);
-    @include transition-duration(1s);
+    @include transition(opacity 2s);
     &:hover {
       opacity: .9;
     }

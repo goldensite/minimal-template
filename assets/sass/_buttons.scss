@@ -29,4 +29,14 @@
     left: 0;
     top: 0;
   }
+  &.btn-2 {
+    background: #11C9B2;
+    span {
+      border-bottom-color: #13A492;
+    }
+    &:before {
+      background-color: #40D7C5;
+      border-bottom-color: #15B19E;
+    }
+  }
 }

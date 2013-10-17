@@ -1,0 +1,7 @@
+// Image replacement
+
+@mixin ir() {
+  text-indent: 150%;
+  white-space: nowrap;
+  overflow: hidden;
+}

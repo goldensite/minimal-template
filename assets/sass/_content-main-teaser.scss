@@ -29,6 +29,7 @@
         width: 65px;
         height: 67px;
         opacity: 0.57;
+        @include transition(opacity 1s);
       }
       &:hover {
         span {

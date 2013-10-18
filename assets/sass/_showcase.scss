@@ -23,7 +23,8 @@
           width: 81px;
           height: 92px;
           margin: 25px auto;
-          opacity: .57
+          opacity: .57;
+          @include transition(opacity 1s);
         }
       }
       &:nth-child(2) {
@@ -45,6 +46,13 @@
         background: none;
         a {
           border-top-color: transparent;
+          span {
+            opacity: 1;
+          }
+        }
+      }
+      &:hover {
+        a {
           span {
             opacity: 1;
           }

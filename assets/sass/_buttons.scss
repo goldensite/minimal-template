@@ -10,6 +10,10 @@
   border: 0;  
   position: relative;  
   padding: 0;
+  @include transition(color 1s);
+  &:hover {
+    color: black;
+  }
   span {
     display: block;
     height: 45px;

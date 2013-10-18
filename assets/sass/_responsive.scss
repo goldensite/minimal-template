@@ -1,0 +1,159 @@
+@import "variables";
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: $screen-md) { 
+  .main-teaser {
+    height: auto;
+    .tab-pane {
+      height: auto;
+      .app-of-the-year{
+        margin-top: 20px;
+      }
+      .slide-body {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .showcase {
+    .tab-pane, .item {
+      height: auto;
+      .slide-body {
+        margin-top: 20px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+  .project-info {
+    background: #fff;
+    aside {
+      background-position: 50% 50%;
+    }
+  }
+}
+
+
+@media (max-width: $screen-xs) { 
+  header {
+    height: auto;
+    .main-nav {
+      float: none;
+      clear: both;
+      padding-top: 20px;
+      li {
+        float: none;
+        border-top: 2px solid #eee;
+        a {
+          float: none;
+          height: auto;
+          line-height: inherit;
+          display: block;
+          margin: 0;
+          padding: 10px 20px;
+        }
+      }
+    }
+  } 
+  .main-teaser {
+    .nav-tabs {
+      position: static;
+      float: none;
+      li {
+        float: none;
+        a {
+          height: auto;
+          line-height: inherit;
+          text-indent: 0;
+          color: white;
+          width: auto;
+          padding: 10px 20px;
+          span {
+            display: none;
+          }
+          &:hover, &:focus {
+            color: white;
+          }
+        }
+        &.active {
+          a {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  .tab-pane {
+    .slide-picture {
+      width: auto;
+      max-width: 100%;
+      .circles {
+        display: none;
+      }
+      img {
+        margin: 0;
+      }
+    }
+  }
+  .showcase {
+    .nav {
+      li {
+        display: block;
+        a {
+          height: auto;
+          border: 0;
+          span {
+            text-indent: 0;
+            background-image: none;
+            height: auto;
+            color: white;
+            margin: 0;
+            opacity: 1;
+            font-size: 20px;
+            width: auto;
+          }
+        }
+        &.active {
+          font-weight:  bold;
+          text-transform: uppercase;
+          text-align: right;
+        }
+      }
+    }
+    .item {
+      figure {
+        margin: 20px 0 10px;
+        width: auto;
+        float: none;
+      }
+      .slide-body {
+        margin-top: 0;
+        .slide-title {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+  .project-info {
+    article {
+      font-size: 50px;
+      height: auto;
+      .highlight {
+        font-size: 75px;
+        margin-top: 20px;
+      }
+    }
+    aside {
+      height: auto;
+      background-size: contain;
+      border: solid #4CD4B0;
+      border-width: 20px 0;
+      .arrows {
+        height: auto;
+        min-height: 150px;        
+      }
+    }
+  }
+}

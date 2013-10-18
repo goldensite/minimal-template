@@ -195,7 +195,7 @@ header .main-nav li:first-child a:before {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/icons-devices\/\*\.png}line{font-family:\0000358}}
 .icons-devices-sprite, .icons-devices-desktop, .icons-devices-phone, .icons-devices-tablet {
-  background: url('/assets/img/icons-devices-sa4c4a010ff.png') no-repeat;
+  background: url('../img/icons-devices-sa4c4a010ff.png') no-repeat;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
@@ -400,7 +400,7 @@ header .main-nav li:first-child a:before {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/_local_www\/motteq-minimal\/icons-symbol\/\*\.png}line{font-family:\0000382}}
 .icons-symbol-sprite, .icons-symbol-apple, .icons-symbol-cart, .icons-symbol-lock, .icons-symbol-power, .icons-symbol-star, .icons-symbol-zoom {
-  background: url('/assets/img/icons-symbol-saa50a321c9.png') no-repeat;
+  background: url('../img/icons-symbol-saa50a321c9.png') no-repeat;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
